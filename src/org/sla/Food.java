@@ -2,7 +2,7 @@ package org.sla;
 
 public class Food {
 
-    private int name;
+    private String name;
     private int calories;
     private int totalFat;
     private int sodium;
@@ -11,7 +11,7 @@ public class Food {
     private int servingSize;
 
 
-    public Food(int name, int servingSize, int calories, int fat, int sodium, int carbs){
+    public Food(String name, int servingSize, int calories, int fat, int sodium, int carbs){
 
         this.name = name;
         this.servingSize = servingSize;
