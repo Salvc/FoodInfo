@@ -1,6 +1,6 @@
 package org.sla;
 
-public class Food {
+class Food {
 
     private String name;
     private int calories;
