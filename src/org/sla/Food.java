@@ -8,10 +8,10 @@ class Food {
     private int sodium;
     private int carbs;
 
-    private int servingSize;
+    private String servingSize;
 
 
-    public Food(String name, int servingSize, int calories, int fat, int sodium, int carbs){
+    public Food(String name, String servingSize, int calories, int fat, int sodium, int carbs){
 
         this.name = name;
         this.servingSize = servingSize;
@@ -62,11 +62,11 @@ class Food {
         this.carbs = carbs;
     }
 
-    public int getServingSize() {
+    public String getServingSize() {
         return servingSize;
     }
 
-    public void setServingSize(int servingSize) {
+    public void setServingSize(String servingSize) {
         this.servingSize = servingSize;
     }
 }
