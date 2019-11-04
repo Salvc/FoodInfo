@@ -8,5 +8,6 @@ public class Main {
         Food burger = new Food("Burger",1,1,1,1,1);
 
         System.out.println(burger.getName());
+
     }
 }

@@ -6,11 +6,11 @@ Arby's	Homestyle	213	566	37	7	1	82	1029
 Arby's	Curly	198	631	37	7	1	73	1476
 Burger King	Regular	160	500	28	6	6	57	820
 Burger King	Salt Not Added	160	500	28	6	6	57	530
-Carl's Jr.	Regular	198	620	29	6	0	80	380
+Carl's Jr.	Regular	198	620	29	6	-1	80	380
 Dairy Queen	Regular	280	730	33	6	5	100	1530
-Del Taco	Regular	198	490	32	5	0	47	380
-Hardee's	Regular	193	610	28	6	0	78	370
-Hardee's	Crispy Curls	153	480	23	6	0	60	1190
+Del Taco	Regular	198	490	32	5	-1	47	380
+Hardee's	Regular	193	610	28	6	-1	78	370
+Hardee's	Crispy Curls	153	480	23	6	-1	60	1190
 In-N-Out Burger	Regular	125	400	18	5	0	54	245
 Jack In The Box	Natural Cut	236	640	33	8	10	77	1180
 Jack In The Box	Seasoned Curly	170	550	31	6	10	60	1200
@@ -20,5 +20,5 @@ Popeyes	Regular	88	310	17	7	1	35	660
 Sonic	Regular	98	280	11	2	0	42	135
 Sonic	Cheese	125	380	19	7	0	44	600
 Sonic	Chili/Cheese	186	450	25	9	0.5	48	610
-Wendy's	Regular	0	540	26	4	1	69	550
+Wendy's	Regular	-1	540	26	4	1	69	550
 White Castle	Regular	244	700	34	6	11	89	560
