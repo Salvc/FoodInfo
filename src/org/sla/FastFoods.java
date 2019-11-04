@@ -7,7 +7,7 @@ package org.sla;
      private String chainName;
      private String foodType;
 
-     public FastFoods(String name, int servingSize, int calories, int fat, int sodium, int carbs, int transFat, int saturatedFat, String chainName, String foodType){
+     public FastFoods(String name, String servingSize, int calories, int fat, int sodium, int carbs, int transFat, int saturatedFat, String chainName, String foodType){
          super(name,servingSize,calories,fat,sodium,carbs);
 
          this.transFat = transFat;

@@ -12,7 +12,7 @@ class Fruits extends Food {
     private int vitaminA;
     private int vitaminC;
 
-    public Fruits(String name, int servingSize, int calories,  int fat, int sodium, int carbs, int potassium, int fiber, int protein, int sugar, int calcium, int iron, int vitaminA, int vitaminC){
+    public Fruits(String name, String servingSize, int calories,  int fat, int sodium, int carbs, int potassium, int fiber, int protein, int sugar, int calcium, int iron, int vitaminA, int vitaminC){
 
         super(name,servingSize,calories,fat,sodium,carbs);
 
