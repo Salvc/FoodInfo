@@ -99,7 +99,7 @@ class FastFoods extends Food{
     }
 
     public void describe() {
-         System.out.println( this.getChainName() + " has the serving of " + this.getServingSize() +" " + this.getName() + " has " + m(this.getCalories()) + " calories, "
+         System.out.println( this.getChainName() + " has the serving of " + this.getServingSize() +" grams of " + this.getName() + " has " + m(this.getCalories()) + " calories, "
                  + m((int)this.getTotalFat()) + " grams of fat, and " + m(this.getCarbs()) + " grams of carbs. As well as, " +  m(this.getTransFat()) + " grams of trans fat and " + m(this.getSaturatedFat())
                  + " grams of saturated fat.");
     }
