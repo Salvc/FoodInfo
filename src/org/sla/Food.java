@@ -1,17 +1,22 @@
 package org.sla;
+import java.util.ArrayList;
 
 class Food {
 
     private String name;
     private int calories;
-    private int totalFat;
+    private double totalFat;
     private int sodium;
     private int carbs;
+
+    //static private ArrayList<Fruits> fruits;
 
     private String servingSize;
 
 
-    public Food(String name, String servingSize, int calories, int fat, int sodium, int carbs){
+    //Constructor
+
+    public Food(String name, String servingSize, int calories, double fat, int sodium, int carbs){
 
         this.name = name;
         this.servingSize = servingSize;
@@ -21,6 +26,12 @@ class Food {
         this.carbs = carbs;
 
     }
+
+
+    //static
+
+    //Getters and setters
+
 
     public String getName() {
         return name;
@@ -38,7 +49,7 @@ class Food {
         this.calories = calories;
     }
 
-    public int getTotalFat() {
+    public double getTotalFat() {
         return totalFat;
     }
 
@@ -69,4 +80,8 @@ class Food {
     public void setServingSize(String servingSize) {
         this.servingSize = servingSize;
     }
+
+
+
+
 }
