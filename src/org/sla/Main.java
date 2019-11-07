@@ -7,6 +7,7 @@ public class Main {
 	// write your code here
 
         Fruits.describeFruits();
+        FastFoods.describeFastFoods();
 
 
     }
